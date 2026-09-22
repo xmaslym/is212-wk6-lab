@@ -19,3 +19,5 @@ class DuckFine:
         self.total_owed += fee
         return fee
 
+    def newmethod():
+        pass
