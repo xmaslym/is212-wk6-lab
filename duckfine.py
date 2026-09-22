@@ -1,7 +1,7 @@
 class DuckFine:
     """Late fees for the QuackLoan rubber-duck lending library."""
     DAILY_FEE = 0.50 # dollars per chargeable day
-    GRACE_DAYS = 2 # the first two days late are forgiven
+    GRACE_DAYS = 1 # the first two days late are forgiven
     MAX_FEE = 5.00 # a single fine never exceeds this
 
     def __init__(self, member_id):
@@ -18,3 +18,6 @@ class DuckFine:
         fee = min(fee, self.MAX_FEE)
         self.total_owed += fee
         return fee
+
+    def new_method():
+        pass
