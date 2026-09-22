@@ -21,3 +21,6 @@ class DuckFine:
 
     def new_method():
         pass
+
+    def new_method2():
+        pass
